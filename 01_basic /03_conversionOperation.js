@@ -44,7 +44,29 @@ let stringOfNumber = String(number)
 // console.log(typeof stringOfNumber);  // string
 
 
+// ******** Operation ********
 
 
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2)
+// console.log(2/2);
+// console.log(2%2);
 
 
+// console.log(2+ "2");
+// console.log("2"+ 2);
+// console.log(2+ 2+ "2");
+// console.log("2"+2 +2);
+
+
+let num = 100
+let num1 = ++num
+let num2 = num++
+// console.log(num1, num2);
+
+
+let str1 = "Hello"
+let str2 = " Shubh"
+
+console.log(str1 + str2); // Hello Shubh
